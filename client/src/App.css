@@ -38,15 +38,24 @@
   .auth__form-container_fields-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-  
-    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
     box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
     border-radius: 5px;
     transition: 0.8s ease;
     background: #fff;
     height: fit-content;
-    width: 40vw;
+    /* width: 60vw; */
+
+  }
+  .auth__form-container_fields-content>form{
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
   .auth__form-container_fields-content p {
@@ -60,8 +69,9 @@
     display: flex;
     flex-direction: column;
     position: relative;
-  
     margin: 1rem 0rem;
+    /* border: 1px solid green; */
+    width: 100%;
   }
   
   .auth__form-container_fields-content_input label {
